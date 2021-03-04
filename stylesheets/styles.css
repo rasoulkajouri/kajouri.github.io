@@ -271,5 +271,13 @@ footer {
 
 header img{
   border-radius:50%;
-  margin:0 auto;
+  margin: 0% 15%;
 }
+
+.holder{
+	background-color: white;
+	width : auto;
+	height : 300px;
+}
+
+
