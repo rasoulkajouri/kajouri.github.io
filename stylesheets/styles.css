@@ -106,8 +106,11 @@ img {
 header {
   width:270px;
   float:left;
-  /*position:fixed;*/
+  position:sticky;
+  position: -webkit-sticky;
   -webkit-font-smoothing:subpixel-antialiased;
+  /*border: 3px solid #73AD21;*/
+  
 }
 
 header ul {
@@ -182,7 +185,7 @@ small {
 hr {
   border:0;
   background:#e5e5e5;
-  height:1px;
+  height:3px;
   margin:0 0 20px;
 }
 
@@ -270,14 +273,10 @@ footer {
 }
 
 header img{
-  border-radius:50%;
-  margin: 0% 15%;
+  border-radius:20%;
+  margin: 5% 13%;
 }
-
-.holder{
-	background-color: white;
-	width : auto;
-	height : 300px;
+header h1, h2, h3, h4, h5, h6, p {
+	margin: 5% 5%;
+	
 }
-
-
