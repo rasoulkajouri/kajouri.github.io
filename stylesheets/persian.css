@@ -5,9 +5,9 @@
 	font-style: normal;
 }
 @font-face{
-	font-family: 'elham-f';
-	src: url('../ttf/elham.ttf');
-	font-weight: bold;
+	font-family: 'Concert';
+	src: url('../ttf/ConcertOne-Regular.ttf');
+	font-weight: normal;
 	font-style: normal;
 }
 @font-face{
@@ -17,36 +17,25 @@
 	font-style: normal;
 }
 
-@media only screen and(max-width:300px){
-	body {
-		font: 10px -apple-system, "koodak-f", "homa-f", Arial, sans-serif;
-		background-color: #fff;
-		font-weight:400;
-	}
-}
 
-@media only screen and (max-width:800px){
-	body {
-		font: 15px -apple-system, "koodak-f", "homa-f", Arial, sans-serif;
-		background-color: #fff;
-		font-weight:400;
-	}
+body{
+	font-family: "koodak-f", "homa-f", "Concert";
+	font-size:1.2em;
+	font-weight:200;
+	background-color: #fff;
+	color:#006466;
 }
-@media only screen and (max-width:1200px){
-	body {
-		font: 20px -apple-system, "koodak-f", "homa-f", Arial, sans-serif;
-		background-color: #fff;
-		font-weight:400;
-	}
-}
-
 
 
 h1, h2, h3, h4, h5, h6{
 	color:#9e2a2b;
 }
 p {
-	color:#14213d;
+	min-width:90%;
+	width:auto;
+	line-height: 1.6;
+	color:#006466;
+	text-align: justify;
 }
 
 a{
@@ -69,17 +58,13 @@ header{
 	min-height:auto;
 	
 	padding: 2%;
-	padding-bottom: 2%;
-	padding-top: 2%;
 	margin: 2% auto 2% auto;
 	border-radius:25px;
 }
 
-.img{
-
+img{
 	height:inherit;
 	width: inherit;
-
 }
 
 .side{
@@ -112,8 +97,4 @@ header{
 	margin-bottom: 2%;
 	float:right;
 	border-radius:25px;
-}
-img{
-	border-radius:25px;
-	float:left;
 }
