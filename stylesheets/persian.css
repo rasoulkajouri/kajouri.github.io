@@ -17,11 +17,30 @@
 	font-style: normal;
 }
 
-body {
-  font: 20px/2.0 -apple-system, "koodak-f", "homa-f", Arial, sans-serif;
-	background-color: #fff;
-	font-weight:400;
+@media only screen and(max-width:300px){
+	body {
+		font: 10px -apple-system, "koodak-f", "homa-f", Arial, sans-serif;
+		background-color: #fff;
+		font-weight:400;
+	}
 }
+
+@media only screen and (max-width:800px){
+	body {
+		font: 15px -apple-system, "koodak-f", "homa-f", Arial, sans-serif;
+		background-color: #fff;
+		font-weight:400;
+	}
+}
+@media only screen and (max-width:1200px){
+	body {
+		font: 20px -apple-system, "koodak-f", "homa-f", Arial, sans-serif;
+		background-color: #fff;
+		font-weight:400;
+	}
+}
+
+
 
 h1, h2, h3, h4, h5, h6{
 	color:#9e2a2b;
