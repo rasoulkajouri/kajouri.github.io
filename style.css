@@ -1,0 +1,280 @@
+body {
+	background-color: grey;
+	font-family: "sans-serif", "Linux Liberation", "serif";
+
+	font-size: 1.5vw 1.5vh;
+	margin: 0;
+	padding: 0;
+
+	text-align: center;
+	align-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-size: 2.0vw 2.0vh;
+}
+
+a {
+	target: "_blank";
+	color: royalblue;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+abbr {
+	text-decoration: none;
+}
+
+header {
+	width: 60%;
+	margin: 0;
+	margin: 0 auto 0 auto;
+
+	padding: 0;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+
+	box-shadow: 0px 0px 10px whitesmoke;
+}
+
+header img {
+
+	height: 110px;
+	width: 100%;
+	border-radius: 10px 10px 0px 0px;
+	border: 0px solid #b5c2c9;
+
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	width: 60%;
+	margin: 0 auto 0 auto;
+	padding: 0;
+
+	background-color: #ccc;
+
+	align-items: center;
+	align-content: center;
+	text-align: center;
+
+	font-size: 2.5vh;
+
+	box-shadow: 0px 0px 10px whitesmoke;
+
+
+}
+
+nav ul {
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+  float: center;
+}
+
+nav li {
+
+	transition: all 0.5s;
+
+	display: inline-block;
+	margin: 1.5vh 2vh 1.5vh 0%;
+	padding: auto;
+	text-align: center;
+	border: 2px solid #fff;
+	padding: 3px 10px;
+}
+
+nav li:hover{
+	transition: all 2s;
+
+	border-radius: 5px;
+	border: 2px solid royalblue;
+	padding: 3px 10px;
+
+}
+
+
+
+
+nav a {
+	text-decoration: none;
+}
+nav a:hover {
+
+	text-decoration: none;
+}
+
+main {
+
+	width: 60%;
+	margin: 0 auto 0 auto;
+	padding: 0 auto 25px auto; 
+	background-color: #fff;
+
+	box-shadow: 0px 0px 10px whitesmoke;
+}
+
+section.contents {
+
+	width: 60%;
+	margin: 0 0 0 0 ;
+	padding: 5% 0 10% 0 ;
+	display: inline-block;
+
+	background-color: #fff;
+
+	border: 0px solid blue;
+}
+
+.contents article {
+
+	width: 90%;
+	text-align: justify;
+	margin: auto;
+
+}
+
+.vertical_line {
+
+
+	width: 0;
+	border: 1px solid grey;
+	min-height: 500px;
+	max-height: 900px;
+
+	margin: 5% auto 0 auto;
+
+	position: absolute;
+	display: inline-block;
+
+
+
+
+}
+
+aside {
+
+	float: left;
+	width: 36%;
+	margin: 0;
+	top: 0;
+
+	min-height: 300px;
+
+	position: relative;
+	display: inline-block;
+
+
+	background-color: #fff;
+
+	border: 0px solid red;
+	padding: 5% 0 5% 0 ;
+}
+
+aside img {
+
+	transition: all 1.5s;
+	width: 70%;
+
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px grey;
+
+	margin: auto;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+aside img:hover {
+
+	transition:  all 1s;
+	box-shadow: 0px 0px 10px black;
+	border-radius: 20%;
+}
+
+aside hr {
+	width: 70%;
+	border: 1px solid; grey;
+	margin: 10% auto 10% auto;
+}
+
+aside ul {
+
+
+	text-align: left;
+
+	width: 80%;
+	margin: 0;
+	padding: 0 10%;
+	list-style: none;
+
+	background-color: #fff;
+
+}
+
+aside li {
+	padding: 1% 0;
+}
+
+aside a {
+	transition: all 0.5s;
+
+	border: 2px solid #fff;
+	padding: 0 3%;
+	border-radius: 10px;
+}
+
+aside a:hover {
+	transition: all 1.0s;
+
+	text-decoration: none;
+	border: 2px solid royalblue;
+	padding: 0 3%;
+	border-radius: 10px;
+}
+
+@font-face{
+	font-family: Allura;
+	src: url("./Allura/Allura-Regular.ttf");
+}
+
+section.text {	
+
+	width: 100%;
+	margin: 0%;
+	padding: 2% 0% 2% 0%;
+	font-family: "allura";
+	font-size: 5vh;
+}
+
+
+footer {
+
+	width: 60%;
+	background-color: #fff;
+	border-radius: 0px 0px 10px 10px;
+
+	margin: 0 auto;
+	padding: 0 0 0.5% 0;
+	text-align: center;
+
+	box-shadow: 0px 0px 10px whitesmoke;
+}
+
+footer hr {
+
+	width: 90%;
+	margin: 0 auto 1% auto;
+	padding: 0;
+	background-color: grey;
+}
+
+
