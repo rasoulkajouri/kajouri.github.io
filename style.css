@@ -255,6 +255,11 @@ section.text {
 	font-size: 5vh;
 }
 
+section.publications {
+
+	font-size: 1.3vh;
+
+}
 
 footer {
 
@@ -314,3 +319,5 @@ footer hr {
 		font-size: 8.0vh;
 	}
 }
+
+
